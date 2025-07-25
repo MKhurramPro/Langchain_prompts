@@ -7,7 +7,7 @@ from langchain_core.prompts import PromptTemplate,load_prompt
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="moonshotai/Kimi-K2-Instruct",
+    repo_id="",
     task="text_generation"
 )
 model = ChatHuggingFace(llm=llm)

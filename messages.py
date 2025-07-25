@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 llm = HuggingFaceEndpoint(
-    repo_id="moonshotai/Kimi-K2-Instruct",
+    repo_id="",
     task="text_generation"
 )
 
